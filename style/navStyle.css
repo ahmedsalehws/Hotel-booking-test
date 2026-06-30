@@ -1,0 +1,144 @@
+*{
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+
+body{
+ background-color: rgb(251, 246, 240);
+}
+
+.container{
+ padding: 0px;
+ width: 95%;
+ margin: 0px auto;
+ background-color: rgb(251, 246, 240);
+}
+
+header{
+ position: relative;
+}
+
+header .container .head-title{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 5px;
+}
+
+header .list-icon{
+ border: 1px solid #111;
+ border-radius: 2px;
+ padding: 2px;
+}
+
+header .list-icon:hover aside{
+ display: block;
+}
+
+
+aside {
+ position: absolute;
+ left: 0;
+ top: 0;
+ display: none;
+ z-index: 10001;
+ width: 100%;
+ border-bottom: 1px solid #00000066;
+}
+
+aside .container{
+  height: 100vh;
+ width: 100%;
+ margin: 0px auto;
+ background-color: rgb(251, 246, 240);
+}
+
+aside .head-title{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ padding: 10px 5px;
+}
+
+.head-title .close-icon{
+ border: 1px solid #111;
+ border-radius: 2px;
+ padding: 2px;
+}
+
+.guest-nav{
+ height: 60%;
+ padding: 20px 7px;
+}
+
+.guest-nav ul li {
+ list-style: none;
+ margin-bottom: 10px;
+ display: flex;
+ flex-flow: row;
+ flex-wrap: wrap;
+ padding: 15px 0px;
+ color: #5A3704;
+ font-weight: 600;
+}
+
+.guest-nav ul li:hover{
+ background-color: white;
+ color: #000;
+ border-bottom: 1px solid #77777740;
+}
+
+.guest-nav ul li span{
+ background-color: rgb(190, 56, 19);
+ color: #fff;
+ border-radius: 50%;
+ margin-left: 180px;
+ font-size: 16px;
+ width: 17px;
+ height: 17px;
+ padding-left: 4px;
+}
+
+.guest-nav ul li img{
+ margin-right: 5px;
+ color: #5A3704;
+}
+
+.weather-box{
+ position: relative;
+ padding: 10px;
+ width: 95%;
+ margin: 0px auto 10px;
+ border-radius: 5px;
+ background-color: rgb(244, 217, 138);
+ overflow: hidden;
+}
+
+.weather-box img{
+ position: absolute;
+ right: -5%;
+ top: -10%;
+}
+
+.weather-box h1{
+ margin: 10px 0px;
+ font-weight: 800;
+}
+
+.weather-box p{
+ font-size: 13px;
+ font-weight: 300;
+ color: #111;
+}
+
+.nav-footer{
+ padding: 10px 5px;
+}
+
+.nav-footer p{
+ margin: 5px 0px;
+ color: #999;
+ font-size: 14px;
+ font-weight: 300;
+}

@@ -1,0 +1,341 @@
+* {
+ padding: 0px;
+ margin: 0px;
+ box-sizing: border-box;
+}
+
+body {
+ background-color: rgb(251, 246, 240);
+}
+
+.container {
+ padding: 0px;
+ width: 95%;
+ margin: 0px auto;
+ margin-bottom: 15px;
+ background-color: rgb(251, 246, 240);
+}
+
+.main{
+ margin: 10px auto;
+}
+
+.main .container h1 span{
+ color: #5A3704;
+}
+
+.main button{
+ height: 35px;
+ width: 49%;
+ margin: 10px auto;
+ font-size: 14px;
+ font-weight: 600;
+ border-radius: 30px;
+ background-color: #77777700;
+ color: #5A3704;
+ border: 1px solid #00000045;
+ transition: .5s;
+}
+
+.main button:hover{
+ color: #F6E5D0;
+ background-color: #333;
+}
+
+.startCards .container{
+ height: 125vh;
+ position: relative;
+}
+
+.card{
+ width: 90%;
+ margin-bottom: 10px;
+ border: 1px solid #77777733;
+ border-radius: 30px;
+ padding: 15px 10px;
+ transition: 1s;
+}
+
+.card:hover{
+ transform: rotate(0deg);
+ transform: translateY(-10px);
+}
+
+.receipt{
+ transform: rotate(-2deg);
+ box-shadow: 0px 1px 3px 0px #777;
+ position: absolute;
+ bottom: 0;
+ left: 5%;
+}
+
+.receipt hr{
+ height: 0px;
+ border: 1px dotted #777;
+ padding: 0px;
+ margin: 5px 0px;
+}
+
+.receipt .checkin,
+.checkout{
+ display: inline-block;
+ margin: 30px 10px;
+ height: 60px;
+ text-align: center;
+}
+
+
+.receipt .checkout span{
+ font-size: 35px;
+ margin: 10px 0;
+}
+
+.receipt .checkin span{
+ font-size: 35px;
+ margin: 10px 0;
+}
+
+.receipt p{
+ font-size: 13px;
+}
+
+.card span{
+ display: block;
+}
+
+.card .receipt-text p{
+ display: inline;
+ font-size: 13px;
+ font-weight: 300;
+}
+
+.card .receipt-text p span{
+ font-size: 12px;
+ display: inline;
+ margin-left: 55%;
+}
+
+.receipt h3{
+ font-size: 28px;
+ font-weight: 600;
+ margin: 5px 0;
+}
+
+.room-info p{
+ display: flex;
+ flex-wrap: wrap;
+ justify-content: space-between;
+ align-items: center;
+ margin: 10px 0;
+ font-weight: 600;
+}
+
+.room-info p:last-child{
+ font-weight: 400;
+}
+
+.totalpaid p{
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center;
+ justify-content: space-between;
+ margin-top: 10px;
+ font-weight: 350;
+ font-size: 15px;
+ letter-spacing: 1px;
+}
+
+.totalpaid p:first-child span{
+ font-size: 27px;
+ font-weight: 800;
+}
+
+
+.startCards .welcome{
+ position: absolute;
+ top: 10px;
+ right: 5%;
+ transform: rotate(2deg);
+ padding: 25px 15px;
+  border-radius: 25px;
+  background: linear-gradient(
+    135deg,
+    #D86F35,
+    #b75026,
+    #9d431d);
+  box-shadow: 0 20px 40px 
+   rgba(172, 76, 29, 0.25);
+}
+
+.welcome .heading-card{
+ display: flex;
+ justify-content: space-between;
+ align-items: flex-start;
+ flex-wrap: wrap;
+ color: #F6E5D0;
+ font-size: 13px;
+}
+
+.welcome .heading-card p:last-child{
+ color: #FF8A00;
+ font-size: 18px;
+ font-weight: 800;
+ margin: 10px 0;
+}
+
+.welcome h1{
+ margin-bottom: 20px;
+ color: #F6E5D0;
+}
+
+.welcome .about{
+ font-size: 13px;
+ color: #F6E5D0;
+ margin-bottom: 80px;
+}
+
+.welcome h5,
+.welcome h2{
+ color: #F6E5D0;
+}
+
+.guest-info .box{
+ margin :17.5px 0px;
+ color: #000;
+ background-color: #FCFCFC;
+ padding: 10px;
+ box-shadow: 0px 1px 3px 0px #777;
+ border-radius: 8px;
+ transition: 1s;
+}
+
+.guest-info .box:hover{
+ transform: translateY(-10px);
+}
+
+.guest-info .box h2{
+ margin-top: 15px;
+ font-weight: 600;
+}
+
+.guest-info .box h6{
+ margin: 15px 0;
+ font-weight: 300;
+}
+
+.guest-info .box p{
+ font-size: 14px;
+ line-height: 20px;
+}
+
+.guest-info .arrival img{
+ background: #D86F35E0;
+ display: inline-block;
+ padding: 5px;
+ border-radius: 8px;
+}
+
+.guest-info .arrival .head{
+ display: inline-flex;
+ justify-content: flex-start;
+ align-items: center;
+ width: 100%;
+}
+
+.guest-info .arrival .head p{
+ display: inline-flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ font-size: 20px;
+ font-weight: 600;
+ color: #D86F35e0;
+ margin-left: 5px;
+}
+
+.guest-info .wifi img {
+ background: #5B6BE5e0;
+ display: inline-block;
+ padding: 5px;
+ border-radius: 8px;
+}
+
+.guest-info .wifi .head {
+ display: inline-flex;
+ justify-content: flex-start;
+ align-items: center;
+ width: 100%;
+}
+
+.guest-info .wifi .head p {
+ display: inline-flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ font-size: 20px;
+ font-weight: 600;
+ color: #5B6BE5e0;
+ margin-left: 5px;
+}
+
+.guest-info .wifi .wifiBody p{
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background-color: #88888838;
+ padding: 5px 5px;
+ margin-bottom: 3px;
+ border-radius: 8px;
+ letter-spacing: 1px;
+ font-weight: 300;
+}
+
+.guest-info .wifi .wifiBody p button{
+ margin: 0px 3px;
+ padding: 0px 5px;
+ background-color: #F7F0F0B5;
+ color: #88888869;
+ border-color: #88888800;
+ border-radius: 5px;
+ transition: 1s;
+}
+
+.guest-info .wifi .wifiBody p button:hover{
+ background-color: #5B6BE5e0;
+ color: #fff;
+}
+
+.guest-info .breakfast img {
+ background: #BE204Be0;
+ display: inline-block;
+ padding: 5px;
+ border-radius: 8px;
+}
+
+.guest-info .breakfast .head {
+ display: inline-flex;
+ justify-content: flex-start;
+ align-items: center;
+ width: 100%;
+}
+
+.guest-info .breakfast .head p {
+ display: inline-flex;
+ justify-content: space-between;
+ align-items: center;
+ width: 100%;
+ font-size: 20px;
+ font-weight: 600;
+ color: #BE204Be0;
+ margin-left: 5px;
+}
+
+footer{
+ padding: 10px;
+ font-size: 12px;
+ text-align: center;
+}
+
+footer a{
+ text-decoration: none;
+}
